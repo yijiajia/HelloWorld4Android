@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout.LayoutActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_test_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="2.1 打开默认的ListView使用方式"/>
+
+    <Button
+        android:id="@+id/btn_fruit_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="2.2 打开图片+文字的自定义ListView"/>
+
+    <Button
+        android:id="@+id/btn_fruit_recyclView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="2.3 打开垂直布局的RecycleView"/>
+
+    <Button
+        android:id="@+id/btn_fruit_recyclView_v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="2.3 打开水平布局的RecycleView"/>
+
+    <Button
+        android:id="@+id/btn_fruit_recyclView_stg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="2.4 打开瀑布流布局的RecycleView"/>
+
+
+    <Button
+        android:id="@+id/btn_fruit_recyclView_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="2.5 打开网格布局的RecycleView"/>
+
+    <Button
+        android:id="@+id/btn_9patch_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="2.6 打开9-Patch制作的聊天界面"/>
+
+    <Button
+        android:id="@+id/btn_open_customerViews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="2.7 打开自定义控件的views"/>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1"/>
+
+    <Button
+        android:id="@+id/button_bro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开百度"/>
+
+
+    <Button
+        android:id="@+id/button_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拨号"/>
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开SecondActivity传递数据"/>
+
+
+    <Button
+        android:id="@+id/button_life"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开生命周期"/>
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开第四个界面测试传递数据"/>
+
+
+
+</LinearLayout>

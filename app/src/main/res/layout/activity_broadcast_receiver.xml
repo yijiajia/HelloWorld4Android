@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".broadcast.BroadcastReceiverActivity">
+
+    <Button
+        android:id="@+id/btn_broadcast_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="3.1 测试Receiver注册的两种方式（时间事件以及开机事件）"/>
+
+    <Button
+        android:id="@+id/btn_broadcast_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="3.2 发送自定义广播"/>
+
+    <Button
+        android:id="@+id/btn_broadcast_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="3.3 测试强制下线的功能"/>
+
+</LinearLayout>
